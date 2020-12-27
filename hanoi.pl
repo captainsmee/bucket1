@@ -28,7 +28,9 @@ bbb(P,A,Q,A1,A,A2):-opr(P,Q,A1,A2).
 bbb(Q,A,P,A2,A,A1):-opr(P,Q,A1,A2).
 bbb(A,P,Q,A,A1,A2):-opr(P,Q,A1,A2).
 bbb(A,Q,P,A,A2,A1):-opr(P,Q,A1,A2).
-dm.
+
+dm. %dummy
+
 opr([H1|L1],[],L1,[H1])
 :-dm
 , !
